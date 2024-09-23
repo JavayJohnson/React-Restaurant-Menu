@@ -1,0 +1,107 @@
+body {
+  background-color: black;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.navbar {
+  border: solid orange;
+  width: 80vw;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10px;
+  background-color: blue;
+}
+
+.navtab {
+  border: solid white;
+  border-width: 0.2px;
+  border-radius: 22px;
+  margin: 1em;
+  width: 33%;
+  text-align: center;
+  padding: 10px;
+  cursor: pointer;
+  background-color: orange;
+  color: white;
+  transition: all 0.3s ease;
+}
+
+.navtab:hover {
+  background-color: white;
+  color: orange;
+  border: solid orange;
+}
+
+.profileNav {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+button {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: orange;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button::backdrop {
+  background-color: blue;
+  color: black;
+}
+
+.menu-container button {
+  background-color: blue;
+  color: white;
+  padding: 10px;
+  margin: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.menu-container button:hover {
+  background-color: orange;
+  color: white;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin: 10px 0;
+  padding: 10px;
+  background-color: blue;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 20px; /* Add some space between image and text */
+}
+
+li img {
+  border-radius: 50%;
+  margin-right: 10px;
+  width: 100px; /* Fixed width for all images */
+  height: 100px; /* Fixed height for all images */
+}
+
+li p {
+  color: white;
+  font-size: 1.2rem;
+ 
